@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e003c, #ed0606e6);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #1e003c, #ed0606e6);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcdff;
+}
+
+.hero {
+  flex: 1;
+  background: url("https://cdn.wallpapersafari.com/8/94/KFJ2EB.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .content h1 span {
+  color:#FFD700;
+}
+
+.hero .content h2 {
+  font-size: 1.5rem;
+  color: #f0e1ff;
+  margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff87d2;
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #300030;
+  font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero .content h1 {
+    font-size: 2rem;
+  }
+
+  .hero .content h2 {
+    font-size: 1.2rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.2rem;
+  }
+  
+}
