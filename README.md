@@ -5,4 +5,7 @@
 **🎯 This Isn’t Just a Page — It’s the Start of an Exciting Journey Into Code**  
 **💡 Let’s Build, Learn, and Grow — Together**
 
+🛬 Check out my personal landing page → [divyaj-portfolio.netlify.app](https://legendary-croquembouche-e67f9f.netlify.app/)
+
+
 ---
