@@ -7,5 +7,7 @@
 
 🛬 Check out my personal landing page → [landing-page.netlify.app](https://legendary-croquembouche-e67f9f.netlify.app/)
 
+ 🧰 Tech Stack : HTML5 & CSS3
+
 
 ---
